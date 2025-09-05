@@ -1,0 +1,6 @@
+global _start
+section .text
+_start:
+	mov ax, 100
+	mov bx, 200
+	mul bx
