@@ -1,0 +1,6 @@
+global _start
+section .text
+_start:
+	mov ax, 64009
+	mov bl, 253
+	div 
